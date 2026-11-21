@@ -8,6 +8,9 @@
 
 /// Errors raised by this component.
 pub mod sigmaintegritymanager2;
+
+/// File integrity daemon module.
+pub mod sigmaintegrity;
 #[derive(Debug, thiserror::Error)]
 pub enum ComponentError {
     /// The requested operation is not supported by this component yet.
